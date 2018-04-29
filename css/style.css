@@ -13,6 +13,15 @@ header,
     background-size: cover;
 }
 
+
+#background-privacy {
+  background-color: rgb(61, 70, 79)
+}
+
+#background-transparency {
+  background-color: rgb(230, 232, 236)
+}
+
 .top-nav-collapse {
     background-color: #24355C;
 }
