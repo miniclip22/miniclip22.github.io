@@ -5,6 +5,33 @@ header,
     height: 100%;
 }
 
+@media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 1000px;
+    }
+}
+
+
+
+@media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 650px;
+    }
+}
+
+
+
+body,
+header {
+    padding-top: 20px;
+}
+
 #intro {
     background: url("../img/landing-page-cover5.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -38,4 +65,14 @@ header,
 
 #navbar-search-div {
     margin-left: 50px;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+    h2 {
+        font-size: 30px;
+    }
 }
