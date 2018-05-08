@@ -5,10 +5,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>EthDocStore - Share Your Critical Documents</title>
+        <title>EthDocStore - Share and Store Your Critical Documents</title>
         <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+        <script defer src="https://use.fontawesome.com/releases/v5.0.12/js/all.js" integrity="sha384-Voup2lBiiyZYkRto2XWqbzxHXwzcm4A5RfdfG6466bu5LqjwwrjXCMBQBLMWh7qR" crossorigin="anonymous"></script>
+
+
+
 
 
         <!-- Bootstrap core CSS -->
@@ -39,7 +41,7 @@ div 3: - Fully GDPR Compliant*
     <body>
 
         <!--Main Navigation-->
-        <header>
+        <header id="top-section">
 
             <!--Navbar-->
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top  elegant-color-dark scrolling-navbar double-nav mobile-nofixed">
@@ -65,14 +67,22 @@ div 3: - Fully GDPR Compliant*
                     <div class="collapse navbar-collapse" id="basicExampleNav">
 
                         <!-- Links -->
-                        <ul class="navbar-nav mr-auto smooth-scroll">
+                        <ul class="navbar-nav mr-auto smooth-scroll ml-auto nav-flex-icons">
                             <li class="nav-item">
-                                <a class="nav-link" href="#intro">Home</a>
+                                <a class="nav-link" href="#get-started">Get Started</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#best-features">Features</a>
+                                <a class="nav-link" href="#documentation">Documentation</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link" href="#faq">F.A.Q.</a>
+                            </li>
+                            <li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about-us">About Us</a>
+                                </li>
+                            </li>
+                            <!-- <li class="nav-item">
                                 <a class="nav-link" href="#examples">Examples</a>
                             </li>
                             <li class="nav-item">
@@ -80,18 +90,23 @@ div 3: - Fully GDPR Compliant*
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact">Contact</a>
-                            </li>
+                            </li> -->
                         </ul>
                         <!-- Links -->
 
                         <!-- Social Icon  -->
                         <ul class="navbar-nav nav-flex-icons">
                             <li class="nav-item">
-                                <a class="nav-link">
-                                    <i class="fa fa-facebook"></i>
+                                <a href="https://www.google.com" class="nav-link">
+                                    <i class="fab fa-github"></i>
                                 </a>
                             </li>
                             <li class="nav-item">
+                                <a href="https://www.google.com" class="nav-link">
+                                    <i class="fa fa-book"></i>
+                                </a>
+                            </li>
+                            <!-- <li class="nav-item">
                                 <a class="nav-link">
                                     <i class="fa fa-twitter"></i>
                                 </a>
@@ -100,7 +115,7 @@ div 3: - Fully GDPR Compliant*
                                 <a class="nav-link">
                                     <i class="fa fa-instagram"></i>
                                 </a>
-                            </li>
+                            </li> -->
                         </ul>
                         <!-- links      -->
                         <!-- search -->
@@ -118,6 +133,15 @@ div 3: - Fully GDPR Compliant*
             </nav>
             <!--/.Navbar-->
 
+            <!-- Back to the top button -->
+            <div class="fixed-action-btn smooth-scroll" style="bottom: 45px; right: 24px;">
+                <a href="#top-section" class="btn-floating btn-large red">
+                    <i class="fa fa-arrow-up"></i>
+                </a>
+            </div>
+            <!-- Back to the top button -->
+
+
             <!--Mask-->
             <div id="intro" class="view">
 
@@ -131,29 +155,24 @@ div 3: - Fully GDPR Compliant*
 
 
                                 <!-- Heading -->
-                                <h2 class="col-12 font-weight-bold  white-text pt-5 mb-2">Easily Upload Your Critical Documents</h2>
+                                <h2 class="col-12 font-weight-bold  white-text pt-5 mb-2">Easily Share and Store Your Important Documents</h2>
 
                                 <!-- Divider -->
                                 <hr class="hr-light">
 
                                 <!-- Description -->
-                                <h4 class="white-text my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti consequuntur.</h4>
+                                <h4 class="white-text my-4">EthDocStore is a decentralized, open-source and easy-to-use platform that enables trustless
+                                    document storage and sharing between parties. </h4>
 
 
-
-
-
-
-
-
-
-
-                                <button type="button" class="btn btn-outline-white">Get Started
-                                    <i class="fa fa-book ml-2"></i>
-                                </button>
-                                <button type="button" class="btn btn-outline-white">Documentation
-                                    <i class="fa fa-book ml-8"></i>
-                                </button>
+                                <div class="container mt-5">
+                                    <button type="button" class="btn btn-indigo btn-rounded btn-lg mr-4 header-buttons">Get Started
+                                        <i class="fa fa-book ml-2"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-elegant btn-rounded btn-lg header-buttons">Documentation
+                                        <i class="fa fa-book ml-8"></i>
+                                    </button>
+                                </div>
 
                             </div>
 
@@ -176,7 +195,7 @@ div 3: - Fully GDPR Compliant*
             <div class="container-fluid">
                 <div class="container">
                     <!--Section: Best Features-->
-                    <section id="best-features" class="text-center">
+                    <section id="best-features" class="text-center text-black">
 
                         <!-- Heading -->
                         <h2 class="mb-5 font-weight-bold">Built on Decentralized Technologies</h2>
@@ -188,9 +207,12 @@ div 3: - Fully GDPR Compliant*
                             <div class="col-md-8">
 
                                 <!-- Description -->
-                                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptate hic provident nulla
-                                    repellat facere esse molestiae ipsa labore porro minima quam quaerat rem, natus repudiandae
-                                    debitis est sit pariatur.</p>
+                                <p class="heading-paragraphs">
+                                   Traditional file storage and sharing rely on complex, centralized infrastructures which are prone to downtime and can be painfully slow. Your precious documents might be deleted at any time; as a target of DCMA takedowns or hackers. They can also be modified or obtained without your consent by unexpected third parties.  <!-- These infrastructures are controlled by big companies where transparency is not their strong suit; the data in your critical documents might be sold or viewed without your explicit consent.  -->
+                                    <br>
+                                    <br>
+                                    We envision decentralization as an easy, secure method of file storage and sharing. EthDocStore is built on <span class="font-weight-bold">3 core decentralized technologies:</span> 
+                                    </p>
 
                             </div>
                             <!--Grid column-->
@@ -203,19 +225,17 @@ div 3: - Fully GDPR Compliant*
 
                             <!--Grid column-->
                             <div class="col-md-4 mb-5">
-                                <i class="fa fa-camera-retro fa-4x orange-text"></i>
+                                <i class="fab fa-ethereum fa-4x"></i>
                                 <h4 class="my-4 font-weight-bold">Ethereum Blockchain</h4>
-                                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam
-                                    minima assumenda deleniti hic.</p>
+                                <p class="heading-paragraph-items">Ethereum Blockchain, as a distributed ledger, allows the creation of an immutable record of every file you stored, viewed and shared. It is immune to censorship, DCMA takedowns or unexpected third parties. 
                             </div>
                             <!--Grid column-->
-
+                            <!-- https://decentraland.org/ -->
                             <!--Grid column-->
                             <div class="col-md-4 mb-1">
-                                <i class="fa fa-heart fa-4x orange-text"></i>
+                               <img id="ipfs-icon" src="/img/ipfs_icon.png">
                                 <h4 class="my-4 font-weight-bold">IPFS</h4>
-                                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam
-                                    minima assumenda deleniti hic.</p>
+                                <p class="heading-paragraph-items">The <a href="https://ipfs.io/">Interplanetary file system </a>is the decentralized technology responsible for file storage and sharing between parties.</p>
                             </div>
                             <!--Grid column-->
 
@@ -223,8 +243,7 @@ div 3: - Fully GDPR Compliant*
                             <div class="col-md-4 mb-1">
                                 <i class="fa fa-bicycle fa-4x orange-text"></i>
                                 <h4 class="my-4 font-weight-bold">BigChain Database</h4>
-                                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam
-                                    minima assumenda deleniti hic.</p>
+                                <p class="heading-paragraph-items">The Bigchain Database is responsible for file metadata storage. Its decentralized approach ensures it cannot be taken down or tampered with. </p>
                             </div>
                             <!--Grid column-->
 

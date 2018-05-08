@@ -1,3 +1,27 @@
+/* Highlighted Text Properties */
+::-moz-selection { 
+    background: yellow;
+}
+
+::selection {
+    background: yellow;
+    border-bottom: 1px solid blue;
+}
+
+.heading-paragraphs
+{
+    font-size: 140%
+}
+
+.heading-paragraph-items
+{
+    font-size: 110%
+}
+
+#ipfs-icon
+{
+    height: 20%;
+}
 
 /* set Intro CSS, height to 100% */
 html,
@@ -17,6 +41,11 @@ such as mobile devices */
     .view {
         height: 400px;
     }
+}
+
+.header-buttons:hover {
+    background-color: white !important;
+    color:black !important;
 }
 
 /* medium to big screens display the header correctly;
@@ -106,3 +135,4 @@ defining it as cover*/
 #navbar-search-div {
     margin-left: 50px;
 }
+
