@@ -39,11 +39,11 @@ such as mobile devices */
     body,
     header,
     .view {
-        height: 400px;
+        height: 650px;
     }
 }
 
-.header-buttons:hover {
+.buttons-hover:hover {
     background-color: white !important;
     color:black !important;
 }
@@ -90,7 +90,22 @@ mobile devices  */
 
 }
 
+/* footer background color */
 
+#footer-background
+{
+    background-color: #394552;
+
+}
+
+.footer-content:hover
+{
+   
+    color:rgba(57,186,145,.8);
+}
+
+
+ 
 /* Padding so that the navbar appears correctly at the top */
 body,
 header {
@@ -109,12 +124,23 @@ defining it as cover*/
 
 /* Divs background colors */
 #background-privacy {
-    background-color: rgb(61, 70, 79)
+    background-color: rgb(61, 70, 79);
 }
+
+#background-gdpr
+{
+    background-color: rgb(61, 70, 79);
+}
+
+#section-features
+{
+    background-color: #fff4f2;
+}
+
 
 /* Divs background colors */
 #background-transparency {
-    background-color: rgb(230, 232, 236)
+    background-color: rgb(230, 232, 236);
 }
 
 
