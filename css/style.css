@@ -1,5 +1,6 @@
 /* Highlighted Text Properties */
-::-moz-selection { 
+
+::-moz-selection {
     background: yellow;
 }
 
@@ -8,22 +9,20 @@
     border-bottom: 1px solid blue;
 }
 
-.heading-paragraphs
-{
+.heading-paragraphs {
     font-size: 140%
 }
 
-.heading-paragraph-items
-{
+.heading-paragraph-items {
     font-size: 110%
 }
 
-#ipfs-icon
-{
+#ipfs-icon {
     height: 20%;
 }
 
 /* set Intro CSS, height to 100% */
+
 html,
 body,
 header,
@@ -31,26 +30,27 @@ header,
     height: 100%;
 }
 
+
 /* media query for the header, to adjust to small screens 
 such as mobile devices */
 
 @media (max-width: 740px) {
     html,
     body,
-    header,
-    .view {
-        height: 650px;
+    header {
+        height: 550px;
     }
 }
 
 .buttons-hover:hover {
     background-color: white !important;
-    color:black !important;
+    color: black !important;
 }
 
 /* medium to big screens display the header correctly;
   also defining font sizes for headings and paragraphs for 
   these sizes*/
+
 @media (min-width: 740px) {
     #desktop-header {
         display: flex;
@@ -71,42 +71,50 @@ such as mobile devices */
         font-size: 2em;
     }
     h4 {
-        font-size: 1.5em;
+        font-size: 2em;
     }
     p {
         font-size: 1em;
     }
+   
 }
 
 /* Defining font sizes for small devices such as \
 mobile devices  */
+
 @media (max-width: 576px) {
     h2 {
-        font-size: 1.5em;
+        font-size: 2em;
     }
+    h3
+    {
+        font-size: 1em;
+    }
+    
     h4 {
         font-size: 1em;
     }
-
+    .heading-paragraphs {
+        font-size: 110%
+    }
+    
+    .heading-paragraph-items {
+        font-size: 110%
+    }
 }
 
 /* footer background color */
 
-#footer-background
-{
+#footer-background {
     background-color: #394552;
-
 }
 
-.footer-content:hover
-{
-   
-    color:rgba(57,186,145,.8);
+.footer-content:hover {
+    color: rgba(57, 186, 145, .8);
 }
 
-
- 
 /* Padding so that the navbar appears correctly at the top */
+
 body,
 header {
     padding-top: 20px;
@@ -114,6 +122,7 @@ header {
 
 /* Setting background image for our header and 
 defining it as cover*/
+
 #intro {
     background: url("../img/landing-page-cover5.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -123,28 +132,27 @@ defining it as cover*/
 }
 
 /* Divs background colors */
+
 #background-privacy {
     background-color: rgb(61, 70, 79);
 }
 
-#background-gdpr
-{
+#background-gdpr {
     background-color: rgb(61, 70, 79);
 }
 
-#section-features
-{
+#section-features {
     background-color: #fff4f2;
 }
 
-
 /* Divs background colors */
+
 #background-transparency {
     background-color: rgb(230, 232, 236);
 }
 
-
 /* Simple animation for the search bar */
+
 #navbar-search {
     width: 75px;
     -webkit-transition: all .5s ease;
@@ -153,12 +161,13 @@ defining it as cover*/
 }
 
 /* Self-explanatory */
+
 #navbar-search:focus {
     width: 200px;
 }
 
 /* Self-explanatory */
+
 #navbar-search-div {
     margin-left: 50px;
 }
-

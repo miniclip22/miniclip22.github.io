@@ -21,7 +21,7 @@
         <!-- Your custom styles (optional) -->
         <link href="css/style.css" rel="stylesheet">
     </head>
- 
+
 
     <!--  Need to add these features:
         Embraced Audited Code
@@ -50,7 +50,7 @@
                     <mdb-navbar SideClass="navbar navbar-dark indigo">
                         <logo>
                             <a class="navbar-brand" href="#">
-                                <img src="./img/EDS.png" height="30" class="d-inline-block align-top" title="Logo"> EthDocStore
+                                <img src="./img/EDS.png" height="30" class="d-inline-block align-top font-weight-bold" title="Logo"> EthDocStore
                             </a>
                         </logo>
                     </mdb-navbar>
@@ -67,7 +67,7 @@
                         <!-- Links -->
                         <ul class="navbar-nav mr-auto smooth-scroll ml-auto nav-flex-icons">
                             <li class="nav-item">
-                                <a class="nav-link" href="#get-started">Features</a>
+                                <a class="nav-link font-weight-bold" href="#get-started">Features</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#get-started">Get Started</a>
@@ -78,7 +78,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#documentation">Documentation</a>
                             </li>
-                           
+
                             <!-- <li class="nav-item">
                                 <a class="nav-link" href="#examples">Examples</a>
                             </li>
@@ -157,12 +157,25 @@
 
 
                                 <div class="container mt-5">
-                                    <button type="button" class="btn btn-indigo btn-rounded btn-lg mr-4 buttons-hover">Get Started
-                                        <i class="fas fa-chevron-circle-right ml-1 " style="font-size:1.5em;"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-elegant btn-rounded btn-lg buttons-hover">Documentation
-                                        <i class="fa fa-book ml-1" style="font-size:1.5em;"></i>
-                                    </button>
+                                    
+                                    <div>
+                                            <button type="button" class="btn btn-indigo btn-rounded btn-lg mr-4 buttons-hover">Get Started
+                                            <i class="d-none d-md-inline fas fa-chevron-circle-right ml-1 " style="font-size:1.5em;"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-elegant btn-rounded btn-lg buttons-hover ">Documentation
+                                            <i class="d-none d-md-inline fa fa-book ml-1" style="font-size:1.5em;"></i>
+                                        </button>
+                                    </div>
+
+                                    <div>
+                                        <button type="button" class="d-md-none d-lg-none d-xl-none btn btn-indigo btn-rounded btn-md mr-4 buttons-hover">Get Started
+                                            <i class="d-md-none fas fa-chevron-circle-right ml-1 " style="font-size:1.5em;"></i>
+                                        </button>
+                                        <button type="button" class="d-md-none d-lg-none d-xl-none btn btn-elegant btn-rounded btn-md buttons-hover mt-3">Documentation
+                                            <i class="d-md-none fa fa-book ml-1" style="font-size:1.5em;"></i>
+                                        </button>
+                                    </div>
+                                    
                                 </div>
 
                             </div>
@@ -530,7 +543,7 @@
 
                             <div class="row">
                                 <div class="col-md-12 mb-5">
-                                    <button type="button" class="btn btn-info btn-rounded font-weight-bold buttons-hover"> All Features</button>
+                                    <button type="button" class="btn btn-info btn-rounded font-weight-bold buttons-hover btn-lg"> All Features</button>
                                 </div>
 
                             </div>
