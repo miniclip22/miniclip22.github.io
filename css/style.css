@@ -9,6 +9,11 @@
     border-bottom: 1px solid blue;
 }
 
+#navbar-color
+{
+    background-color: rgb(38, 38, 38);
+}
+
 .heading-paragraphs {
     font-size: 140%
 }
@@ -38,7 +43,7 @@ such as mobile devices */
     html,
     body,
     header {
-        height: 550px;
+        height: 750px;
     }
 }
 
@@ -101,12 +106,16 @@ mobile devices  */
     .heading-paragraph-items {
         font-size: 110%
     }
+    #cover-main-header
+    {
+        margin-top: 100px;
+    }
 }
 
 /* footer background color */
 
 #footer-background {
-    background-color: #394552;
+    background-color: rgb(38, 38, 38);
 }
 
 .footer-content:hover {
