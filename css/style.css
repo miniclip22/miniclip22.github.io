@@ -39,7 +39,7 @@ header,
 /* media query for the header, to adjust to small screens 
 such as mobile devices */
 
-@media (max-width: 740px) {
+@media (max-width: 767px) {
     html,
     body,
     header {
@@ -56,7 +56,7 @@ such as mobile devices */
   also defining font sizes for headings and paragraphs for 
   these sizes*/
 
-@media (min-width: 740px) {
+@media (min-width: 767px) {
     #desktop-header {
         display: flex;
         align-items: center;
@@ -87,7 +87,7 @@ such as mobile devices */
 /* Defining font sizes for small devices such as \
 mobile devices  */
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     h2 {
         font-size: 2em;
     }
@@ -111,6 +111,10 @@ mobile devices  */
         margin-top: 100px;
     }
 }
+
+@media (max-width: 991px) { 
+ 
+ }
 
 /* footer background color */
 
