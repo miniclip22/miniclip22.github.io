@@ -36,6 +36,8 @@ header,
 }
 
 
+
+
 /* media query for the header, to adjust to small screens 
 such as mobile devices */
 
@@ -114,6 +116,11 @@ mobile devices  */
 
 @media (max-width: 991px) { 
  
+ }
+
+ #section-how-does-it-work
+ {
+
  }
 
 /* footer background color */
